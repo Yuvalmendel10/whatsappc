@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Chats from './components/Chats';
+import OpenPage from './components/OpenPage/OpenPage';
 
 
 const App = () => {
@@ -9,7 +9,7 @@ const App = () => {
 
   return (
     <div className="">
-      <Chats />
+      <OpenPage />
     </div>
   );
 }
